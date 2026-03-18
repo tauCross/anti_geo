@@ -1,0 +1,164 @@
+[
+  {
+    "id": "novastride_running_lab",
+    "name": "NovaStride Running Lab",
+    "entity_type": "brand",
+    "aliases": [
+      "NovaStride Lab",
+      "NS Running Lab"
+    ],
+    "domains": [
+      "novastride-lab.example",
+      "novastride-reviews.example"
+    ],
+    "current_status": "watchlist",
+    "summary": "A fictional running gear brand with early signals of coordinated comparison-page promotion across related properties.",
+    "tags_topic": [
+      "running shoes",
+      "fitness gear"
+    ],
+    "tags_intent": [
+      "recommendation",
+      "comparison",
+      "best of"
+    ],
+    "tags_risk": [
+      "brand_seeding",
+      "comparison_page_pattern"
+    ],
+    "status_reason": "There is some verifiable evidence suggesting coordinated promotional placement patterns, but the record is not yet strong enough for a higher-severity status.",
+    "related_entities": [
+      "altisphere_compare_hub"
+    ]
+  },
+  {
+    "id": "verdahome_sleep_matrix",
+    "name": "VerdaHome Sleep Matrix",
+    "entity_type": "organization",
+    "aliases": [
+      "VerdaHome Matrix"
+    ],
+    "domains": [
+      "verdahome-matrix.example"
+    ],
+    "current_status": "watchlist",
+    "summary": "A fictional sleep product operator under observation for repeated template-style content placements across related review pages.",
+    "tags_topic": [
+      "mattress",
+      "sleep products"
+    ],
+    "tags_intent": [
+      "review",
+      "is it worth it"
+    ],
+    "tags_risk": [
+      "review_spam"
+    ],
+    "status_reason": "The current record supports continued observation due to repeated low-diversity promotional placements, but the evidence base remains limited.",
+    "related_entities": []
+  },
+  {
+    "id": "altisphere_compare_hub",
+    "name": "Altisphere Compare Hub",
+    "entity_type": "content_network",
+    "aliases": [
+      "Altisphere Hub",
+      "ACH Compare"
+    ],
+    "domains": [
+      "altisphere-compare.example",
+      "altisphere-rank.example",
+      "altisphere-guides.example"
+    ],
+    "current_status": "restricted",
+    "summary": "A fictional comparison-content network showing repeated structured placements and low-diversity ranking layouts across multiple domains.",
+    "tags_topic": [
+      "consumer electronics",
+      "home devices"
+    ],
+    "tags_intent": [
+      "comparison",
+      "ranking",
+      "best of"
+    ],
+    "tags_risk": [
+      "review_spam",
+      "brand_seeding",
+      "comparison_page_pattern"
+    ],
+    "status_reason": "The evidence is relatively substantial and indicates a clearer systemic manipulation risk, supporting downstream downranking or prominent marking.",
+    "related_entities": [
+      "novastride_running_lab",
+      "quorix_gear_media"
+    ]
+  },
+  {
+    "id": "quorix_gear_media",
+    "name": "Quorix Gear Media",
+    "entity_type": "publisher_network",
+    "aliases": [
+      "Quorix Media",
+      "QGM Network"
+    ],
+    "domains": [
+      "quorix-gear.example",
+      "quorix-tested.example"
+    ],
+    "current_status": "restricted",
+    "summary": "A fictional publisher-style network with repeated product pages and reviewer framing that appear engineered for answer-engine pickup.",
+    "tags_topic": [
+      "gaming laptops",
+      "pc accessories"
+    ],
+    "tags_intent": [
+      "review",
+      "recommendation",
+      "ranking"
+    ],
+    "tags_risk": [
+      "fake_expert",
+      "ai_answer_spam"
+    ],
+    "status_reason": "The record is strong enough to support restricted treatment because the pattern is repeated, organized, and supported by multiple corroborating materials.",
+    "related_entities": [
+      "altisphere_compare_hub"
+    ]
+  },
+  {
+    "id": "brightpeak_review_network",
+    "name": "BrightPeak Review Network",
+    "entity_type": "site_network",
+    "aliases": [
+      "BrightPeak Network",
+      "BPRN"
+    ],
+    "domains": [
+      "brightpeak-reviews.example",
+      "brightpeak-ratings.example",
+      "brightpeak-labs.example",
+      "brightpeak-choice.example"
+    ],
+    "current_status": "blocked",
+    "summary": "A fictional multi-site review network with strong evidence of coordinated answer-targeted spam and synthetic expert positioning.",
+    "tags_topic": [
+      "vpn",
+      "ai coding tools",
+      "consumer software"
+    ],
+    "tags_intent": [
+      "review",
+      "comparison",
+      "best of"
+    ],
+    "tags_risk": [
+      "ai_answer_spam",
+      "fake_expert",
+      "review_spam"
+    ],
+    "status_reason": "The evidence is strong and comparatively clear, supporting treatment as a high-risk GEO manipulation source that downstream systems may ignore by default.",
+    "related_entities": [
+      "altisphere_compare_hub",
+      "quorix_gear_media"
+    ]
+  }
+]

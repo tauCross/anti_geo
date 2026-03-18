@@ -1,0 +1,68 @@
+[
+  {
+    "id": "novastride_running_lab",
+    "name": "NovaStride Running Lab",
+    "entity_type": "brand",
+    "aliases": [
+      "NovaStride Lab",
+      "NS Running Lab"
+    ],
+    "domains": [
+      "novastride-lab.example",
+      "novastride-reviews.example"
+    ],
+    "current_status": "watchlist",
+    "summary": "A fictional running gear brand with early signals of coordinated comparison-page promotion across related properties.",
+    "tags_topic": [
+      "running shoes",
+      "fitness gear"
+    ],
+    "tags_intent": [
+      "recommendation",
+      "comparison",
+      "best of"
+    ],
+    "tags_risk": [
+      "brand_seeding",
+      "comparison_page_pattern"
+    ],
+    "notes": "Current record reflects an early-stage pattern review and may require further corroboration.",
+    "status_reason": "There is some verifiable evidence suggesting coordinated promotional placement patterns, but the record is not yet strong enough for a higher-severity status.",
+    "source_count": 3,
+    "related_entities": [
+      "altisphere_compare_hub"
+    ],
+    "created_at": "2026-03-18T08:00:00Z",
+    "updated_at": "2026-03-18T08:00:00Z"
+  },
+  {
+    "id": "verdahome_sleep_matrix",
+    "name": "VerdaHome Sleep Matrix",
+    "entity_type": "organization",
+    "aliases": [
+      "VerdaHome Matrix"
+    ],
+    "domains": [
+      "verdahome-matrix.example"
+    ],
+    "current_status": "watchlist",
+    "summary": "A fictional sleep product operator under observation for repeated template-style content placements across related review pages.",
+    "tags_topic": [
+      "mattress",
+      "sleep products"
+    ],
+    "tags_intent": [
+      "review",
+      "is it worth it"
+    ],
+    "tags_risk": [
+      "review_spam"
+    ],
+    "notes": "Observed signals are recurring but still limited in volume.",
+    "status_reason": "The current record supports continued observation due to repeated low-diversity promotional placements, but the evidence base remains limited.",
+    "source_count": 2,
+    "related_entities": [],
+    "created_at": "2026-03-18T08:05:00Z",
+    "updated_at": "2026-03-18T08:05:00Z"
+  }
+]

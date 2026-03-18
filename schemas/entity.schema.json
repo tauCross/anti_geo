@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openantigeo.org/schemas/entity.schema.json",
+  "title": "AntiGEO Entity",
+  "description": "Schema for an AntiGEO entity record representing a target object discussed or recorded in the risk registry.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable unique identifier for the entity record.",
+      "pattern": "^[a-z0-9_-]+$",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "description": "Primary display name of the entity.",
+      "minLength": 1
+    },
+    "entity_type": {
+      "type": "string",
+      "description": "Primary type of the entity.",
+      "enum": [
+        "brand",
+        "organization",
+        "domain",
+        "content_network",
+        "site_network",
+        "publisher_network",
+        "other"
+      ]
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Alternative names, aliases, or common variants for the entity.",
+      "default": [],
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "domains": {
+      "type": "array",
+      "description": "Related domain strings associated with the entity. Use registrable domains or normalized host-like domain strings.",
+      "default": [],
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "current_status": {
+      "type": "string",
+      "description": "Current AntiGEO status assigned to the entity.",
+      "enum": [
+        "watchlist",
+        "restricted",
+        "blocked"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "description": "Short description of why the entity is recorded."
+    },
+    "tags_topic": {
+      "type": "array",
+      "description": "Topic tags used for pre-search recall and topic-based filtering.",
+      "default": [],
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "tags_intent": {
+      "type": "array",
+      "description": "Intent tags used for pre-search filtering by user intent or task type.",
+      "default": [],
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "tags_risk": {
+      "type": "array",
+      "description": "Risk tags used to explain risk patterns and support downstream governance decisions.",
+      "default": [],
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional freeform notes about the entity record."
+    },
+    "status_reason": {
+      "type": "string",
+      "description": "Short explanation of the current status assignment."
+    },
+    "source_count": {
+      "type": "integer",
+      "description": "Optional count of relevant supporting sources associated with the entity record.",
+      "minimum": 0
+    },
+    "related_entities": {
+      "type": "array",
+      "description": "Optional list of related entity identifiers or names.",
+      "default": [],
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "description": "Timestamp when the entity record was created.",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "description": "Timestamp when the entity record was last updated.",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "entity_type",
+    "current_status",
+    "created_at",
+    "updated_at"
+  ]
+}

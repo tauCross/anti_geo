@@ -1,0 +1,38 @@
+{
+  "altisphere-compare.example": [
+    "altisphere_compare_hub"
+  ],
+  "altisphere-guides.example": [
+    "altisphere_compare_hub"
+  ],
+  "altisphere-rank.example": [
+    "altisphere_compare_hub"
+  ],
+  "brightpeak-choice.example": [
+    "brightpeak_review_network"
+  ],
+  "brightpeak-labs.example": [
+    "brightpeak_review_network"
+  ],
+  "brightpeak-ratings.example": [
+    "brightpeak_review_network"
+  ],
+  "brightpeak-reviews.example": [
+    "brightpeak_review_network"
+  ],
+  "novastride-lab.example": [
+    "novastride_running_lab"
+  ],
+  "novastride-reviews.example": [
+    "novastride_running_lab"
+  ],
+  "quorix-gear.example": [
+    "quorix_gear_media"
+  ],
+  "quorix-tested.example": [
+    "quorix_gear_media"
+  ],
+  "verdahome-matrix.example": [
+    "verdahome_sleep_matrix"
+  ]
+}

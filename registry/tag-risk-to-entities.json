@@ -1,0 +1,23 @@
+{
+  "ai_answer_spam": [
+    "brightpeak_review_network",
+    "quorix_gear_media"
+  ],
+  "brand_seeding": [
+    "altisphere_compare_hub",
+    "novastride_running_lab"
+  ],
+  "comparison_page_pattern": [
+    "altisphere_compare_hub",
+    "novastride_running_lab"
+  ],
+  "fake_expert": [
+    "brightpeak_review_network",
+    "quorix_gear_media"
+  ],
+  "review_spam": [
+    "altisphere_compare_hub",
+    "brightpeak_review_network",
+    "verdahome_sleep_matrix"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "ai coding tools": [
+    "brightpeak_review_network"
+  ],
+  "consumer electronics": [
+    "altisphere_compare_hub"
+  ],
+  "consumer software": [
+    "brightpeak_review_network"
+  ],
+  "fitness gear": [
+    "novastride_running_lab"
+  ],
+  "gaming laptops": [
+    "quorix_gear_media"
+  ],
+  "home devices": [
+    "altisphere_compare_hub"
+  ],
+  "mattress": [
+    "verdahome_sleep_matrix"
+  ],
+  "pc accessories": [
+    "quorix_gear_media"
+  ],
+  "running shoes": [
+    "novastride_running_lab"
+  ],
+  "sleep products": [
+    "verdahome_sleep_matrix"
+  ],
+  "vpn": [
+    "brightpeak_review_network"
+  ]
+}

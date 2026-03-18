@@ -1,0 +1,43 @@
+[
+  {
+    "id": "brightpeak_review_network",
+    "name": "BrightPeak Review Network",
+    "entity_type": "site_network",
+    "aliases": [
+      "BrightPeak Network",
+      "BPRN"
+    ],
+    "domains": [
+      "brightpeak-reviews.example",
+      "brightpeak-ratings.example",
+      "brightpeak-labs.example",
+      "brightpeak-choice.example"
+    ],
+    "current_status": "blocked",
+    "summary": "A fictional multi-site review network with strong evidence of coordinated answer-targeted spam and synthetic expert positioning.",
+    "tags_topic": [
+      "vpn",
+      "ai coding tools",
+      "consumer software"
+    ],
+    "tags_intent": [
+      "review",
+      "comparison",
+      "best of"
+    ],
+    "tags_risk": [
+      "ai_answer_spam",
+      "fake_expert",
+      "review_spam"
+    ],
+    "notes": "This sample record is intentionally fictional and represents a high-confidence governance scenario.",
+    "status_reason": "The evidence is strong and comparatively clear, supporting treatment as a high-risk GEO manipulation source that downstream systems may ignore by default.",
+    "source_count": 9,
+    "related_entities": [
+      "altisphere_compare_hub",
+      "quorix_gear_media"
+    ],
+    "created_at": "2026-03-18T08:20:00Z",
+    "updated_at": "2026-03-18T08:20:00Z"
+  }
+]

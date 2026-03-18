@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openantigeo.org/schemas/override.schema.json",
+  "title": "AntiGEO Override",
+  "description": "Schema for local override rules used by downstream projects or users when consuming AntiGEO release data.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Version of the override file format.",
+      "minLength": 1
+    },
+    "rules": {
+      "type": "array",
+      "description": "List of local override rules.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable unique identifier for the override rule.",
+            "pattern": "^[a-z0-9_-]+$",
+            "minLength": 1
+          },
+          "match_type": {
+            "type": "string",
+            "description": "Type of target matcher used by the rule.",
+            "enum": [
+              "entity_id",
+              "domain"
+            ]
+          },
+          "match_value": {
+            "type": "string",
+            "description": "Value matched by the rule, such as an entity id or a domain string.",
+            "minLength": 1
+          },
+          "action": {
+            "type": "string",
+            "description": "Local action applied when the rule matches.",
+            "enum": [
+              "allow",
+              "deny",
+              "downrank",
+              "warn"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "description": "Short explanation for why the local override rule exists."
+          },
+          "created_at": {
+            "type": "string",
+            "description": "Timestamp when the override rule was created.",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": "string",
+            "description": "Timestamp when the override rule was last updated.",
+            "format": "date-time"
+          },
+          "notes": {
+            "type": "string",
+            "description": "Optional freeform notes about the override rule."
+          },
+          "source": {
+            "type": "string",
+            "description": "Optional lightweight source label describing where the override rule came from."
+          },
+          "enabled": {
+            "type": "boolean",
+            "description": "Whether the override rule is currently enabled.",
+            "default": true
+          }
+        },
+        "required": [
+          "id",
+          "match_type",
+          "match_value",
+          "action"
+        ]
+      }
+    }
+  },
+  "required": [
+    "version",
+    "rules"
+  ]
+}

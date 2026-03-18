@@ -1,0 +1,77 @@
+[
+  {
+    "id": "altisphere_compare_hub",
+    "name": "Altisphere Compare Hub",
+    "entity_type": "content_network",
+    "aliases": [
+      "Altisphere Hub",
+      "ACH Compare"
+    ],
+    "domains": [
+      "altisphere-compare.example",
+      "altisphere-rank.example",
+      "altisphere-guides.example"
+    ],
+    "current_status": "restricted",
+    "summary": "A fictional comparison-content network showing repeated structured placements and low-diversity ranking layouts across multiple domains.",
+    "tags_topic": [
+      "consumer electronics",
+      "home devices"
+    ],
+    "tags_intent": [
+      "comparison",
+      "ranking",
+      "best of"
+    ],
+    "tags_risk": [
+      "review_spam",
+      "brand_seeding",
+      "comparison_page_pattern"
+    ],
+    "notes": "Patterns appear across multiple domains with similar layout and claim structure.",
+    "status_reason": "The evidence is relatively substantial and indicates a clearer systemic manipulation risk, supporting downstream downranking or prominent marking.",
+    "source_count": 6,
+    "related_entities": [
+      "novastride_running_lab",
+      "quorix_gear_media"
+    ],
+    "created_at": "2026-03-18T08:10:00Z",
+    "updated_at": "2026-03-18T08:10:00Z"
+  },
+  {
+    "id": "quorix_gear_media",
+    "name": "Quorix Gear Media",
+    "entity_type": "publisher_network",
+    "aliases": [
+      "Quorix Media",
+      "QGM Network"
+    ],
+    "domains": [
+      "quorix-gear.example",
+      "quorix-tested.example"
+    ],
+    "current_status": "restricted",
+    "summary": "A fictional publisher-style network with repeated product pages and reviewer framing that appear engineered for answer-engine pickup.",
+    "tags_topic": [
+      "gaming laptops",
+      "pc accessories"
+    ],
+    "tags_intent": [
+      "review",
+      "recommendation",
+      "ranking"
+    ],
+    "tags_risk": [
+      "fake_expert",
+      "ai_answer_spam"
+    ],
+    "notes": "Current record reflects repeated expert-style framing with low author diversity and synchronized page structures.",
+    "status_reason": "The record is strong enough to support restricted treatment because the pattern is repeated, organized, and supported by multiple corroborating materials.",
+    "source_count": 5,
+    "related_entities": [
+      "altisphere_compare_hub"
+    ],
+    "created_at": "2026-03-18T08:15:00Z",
+    "updated_at": "2026-03-18T08:15:00Z"
+  }
+]

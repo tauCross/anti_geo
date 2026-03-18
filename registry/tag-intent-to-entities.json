@@ -1,0 +1,28 @@
+{
+  "best of": [
+    "altisphere_compare_hub",
+    "brightpeak_review_network",
+    "novastride_running_lab"
+  ],
+  "comparison": [
+    "altisphere_compare_hub",
+    "brightpeak_review_network",
+    "novastride_running_lab"
+  ],
+  "is it worth it": [
+    "verdahome_sleep_matrix"
+  ],
+  "ranking": [
+    "altisphere_compare_hub",
+    "quorix_gear_media"
+  ],
+  "recommendation": [
+    "novastride_running_lab",
+    "quorix_gear_media"
+  ],
+  "review": [
+    "brightpeak_review_network",
+    "quorix_gear_media",
+    "verdahome_sleep_matrix"
+  ]
+}
