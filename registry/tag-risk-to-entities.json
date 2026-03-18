@@ -1,23 +1,26 @@
 {
   "ai_answer_spam": [
-    "brightpeak_review_network",
     "quorix_gear_media"
   ],
   "brand_seeding": [
     "altisphere_compare_hub",
     "novastride_running_lab"
   ],
+  "broad-brand-block": [
+    "huawei-all-consumer-tech-and-info"
+  ],
   "comparison_page_pattern": [
     "altisphere_compare_hub",
     "novastride_running_lab"
   ],
   "fake_expert": [
-    "brightpeak_review_network",
     "quorix_gear_media"
+  ],
+  "personal-block": [
+    "huawei-all-consumer-tech-and-info"
   ],
   "review_spam": [
     "altisphere_compare_hub",
-    "brightpeak_review_network",
     "verdahome_sleep_matrix"
   ]
 }

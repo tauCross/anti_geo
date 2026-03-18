@@ -1,12 +1,6 @@
 {
-  "ai coding tools": [
-    "brightpeak_review_network"
-  ],
   "consumer electronics": [
     "altisphere_compare_hub"
-  ],
-  "consumer software": [
-    "brightpeak_review_network"
   ],
   "fitness gear": [
     "novastride_running_lab"
@@ -29,7 +23,100 @@
   "sleep products": [
     "verdahome_sleep_matrix"
   ],
-  "vpn": [
-    "brightpeak_review_network"
+  "平板": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "平板电脑": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "手机": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "手机新闻": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "手机资讯": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "手环": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "手表": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "数码": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "数码产品": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "数码资讯": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "智慧屏": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "智能手机": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "智能手表": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "智能终端": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "消费电子": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "电子产品": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "电脑": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "硬件": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "硬件新闻": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "硬件资讯": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "科技新闻": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "科技资讯": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "穿戴设备": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "笔记本": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "笔记本电脑": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "终端设备": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "网络设备": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "耳机": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "蓝牙耳机": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "路由器": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "音箱": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "音频设备": [
+    "huawei-all-consumer-tech-and-info"
   ]
 }

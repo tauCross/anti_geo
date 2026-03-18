@@ -8,17 +8,17 @@
   "altisphere-rank.example": [
     "altisphere_compare_hub"
   ],
-  "brightpeak-choice.example": [
-    "brightpeak_review_network"
+  "carrier.huawei.com": [
+    "huawei-all-consumer-tech-and-info"
   ],
-  "brightpeak-labs.example": [
-    "brightpeak_review_network"
+  "consumer.huawei.com": [
+    "huawei-all-consumer-tech-and-info"
   ],
-  "brightpeak-ratings.example": [
-    "brightpeak_review_network"
+  "e.huawei.com": [
+    "huawei-all-consumer-tech-and-info"
   ],
-  "brightpeak-reviews.example": [
-    "brightpeak_review_network"
+  "huawei.com": [
+    "huawei-all-consumer-tech-and-info"
   ],
   "novastride-lab.example": [
     "novastride_running_lab"
@@ -31,6 +31,12 @@
   ],
   "quorix-tested.example": [
     "quorix_gear_media"
+  ],
+  "shop.huawei.com": [
+    "huawei-all-consumer-tech-and-info"
+  ],
+  "support.huawei.com": [
+    "huawei-all-consumer-tech-and-info"
   ],
   "verdahome-matrix.example": [
     "verdahome_sleep_matrix"
